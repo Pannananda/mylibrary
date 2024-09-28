@@ -13,7 +13,7 @@ button {
   margin: 24px;
   cursor: pointer;
   font-size: 24px;
-  background-color: #24a056;
+  background-color: #4524a0;
   color: white;
 }
 
@@ -24,7 +24,7 @@ button {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 60vw;
-  background-color: #9ceed5;
+  background-color: #eaf3f0;
 }
 
 .wrapper {

@@ -7,7 +7,7 @@
 body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  background-color: #eff5f8;
+  background-color: #5399c2;
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
 }
 
 button {
-  background-color: #6e940d;
+  background-color: #1715a5;
   border-radius: 8px;
   color: #fff;
   cursor: pointer;
@@ -66,7 +66,7 @@ input {
 
 .card {
   display: block;
-  background-color:#8fc3bf;;
+  background-color:#9b9da3;;
   border: 1px solid #eceff1;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0,

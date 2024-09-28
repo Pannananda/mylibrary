@@ -1,30 +1,36 @@
-/* universal selector */
-* {
-    font-family: 'Lucida Sans Unicode';
-}
-/* My Bio selector */
-body {
-    background-color: lemonchiffon;
-}
-header,
-footer {
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
-    color: azure;
-    background-color: rgb(36, 37, 117);
-}
-
-figure {
-    width: 200px;
-    background-color: #f0ead6;
-  }
-  /* Myself selector */
-.highlighted-text {
-    font-weight: bolder;
-}
-  
-/* My Contant Info selector */
-#contact-section {
-    background-color: #f0ead6;
-}
+    /*Universal Selectro: */
+    * {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+    
+        /* Attribute Selector: */
+    body {
+        background-color: aliceblue;
+    }
+    
+    /* Attribute Selector: */
+    header,
+    footer {
+        width: 100%;
+        height: 100px;
+        color: aliceblue;
+        background-color: rgb(33, 33, 92);
+    }
+    
+    figure {
+        width: 200px;
+        background-color: aliceblue;
+    }
+    /* Class Selector": */
+    .highlighted-text {
+        font-weight:bolder;
+    }
+        /* ID selectors */
+    #contact-section {
+        background-color: #f0ead6;
+    }
+    
+    img {
+        width: 200px;
+        height: 200px;
+    }

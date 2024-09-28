@@ -6,14 +6,14 @@
 /* Global styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: cornflowerblue;
+    background-color: rgb(203, 212, 228);
 }
 .container {
     width: 80%;
     margin: auto;
 }
 header {
-    background: #444;
+    background: #250808;
     color: #eee;
     padding: 20px 0;
 }
@@ -46,21 +46,21 @@ nav ul li a {
     text-decoration: none;
 }
 #about {
-    background-color: darkseagreen;
+    background-color: rgb(87, 112, 160);
     font-size: 1.7rem;
     line-height: 2;
     padding: 25px;
     margin: 3%;
 }
 #work {
-    background-color: darkgrey;
+    background-color: rgb(187, 182, 199);
     font-size: 1.7rem;
     line-height: 2;
     padding: 25px;
     margin: 3%;
 }
 #contact {
-    background-color: cornflowerblue;
+    background-color: rgb(86, 135, 226);
     /* font-size: 1.7rem; */
     /* line-height: 2; */
     padding: 25px;
@@ -71,7 +71,7 @@ nav ul li a {
     background: #024e76;
 }
 .contact h2 {
-    color: #fce138;
+    color: #fce346;
 }
 .contact-info {
     display: flex;
@@ -89,7 +89,7 @@ nav ul li a {
     color: white;
 }
 .contact-info h3 {
-    color: #fce138;
+    color: #dbc42d;
     font-size: 32px;
 }
 .contact-info p, .contact-info address {
@@ -117,19 +117,19 @@ nav ul li a {
 .contact-form button {
     width: 100%;
     border: none;
-    background: #fce446;
-    color: #024e76;
+    background: #3dd2dd;
+    color: #111311;
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
 }
 .contact-form button:hover {
-    color: #fce138;
+    color: #dbc63a;
     background: #39a6b2;
 }
 .contact-info a {
-    color: #fce138;
+    color: #d4bc1b;
 }
 /* Contact area Details Ends */
 
@@ -193,7 +193,7 @@ nav ul li a {
     transform: scale(1.1);
 }
 footer {
-    background: #333;
+    background: #692727;
     color: #fff;
     padding: 20px 0;
 }

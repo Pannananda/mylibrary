@@ -1,4 +1,4 @@
-.Free {
+section {
     background-color: lemonchiffon;
 }
 
@@ -7,13 +7,18 @@
 }
 
 #email {
-    background-color: rgb(212, 212, 39);
+    background-color: goldenrod;
 }
 
 #github {
-    background-color: rgb(17, 194, 17);
+    background-color: lightsteelblue;
 }
 
 #portfolio {
-    background-color: rgb(188, 27, 27);
+    background-color: darkorange;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
