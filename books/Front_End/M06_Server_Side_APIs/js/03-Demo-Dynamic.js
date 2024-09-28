@@ -2,7 +2,7 @@ var usersContainer = document.getElementById('users');
 var fetchButton = document.getElementById('fetch-button');
 
 function getApi() {
-  var requestUrl = 'https://api.github.com/users/Daisybb2007/repos?per_page=5';
+  var requestUrl = 'https://api.github.com/users/Dpannananda/repos?per_page=5';
 
   fetch(requestUrl)
     .then(function (response) {
