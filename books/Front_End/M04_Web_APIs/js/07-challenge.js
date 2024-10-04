@@ -27,62 +27,50 @@ submitScoreButton.addEventListener('click', saveScore);
 // Questions array
 const questions = [
     {
-        question: "မြန်မာနိုင်ငံရဲ့ မြို့တော်ကို ရွေးပါ။?",
+        question: "မြန်မာနိုင်ငံမှာ ဘာသာရေးအသိုင်းအဝိုင်းအများဆုံး ဘာသာတစ်ခုမှာပါဝင်သူတွေက ဘာသာလဲ?",
         answers: [
-            { text: "ရန်ကုန်", correct: false },
-            { text: "မန္တလေး", correct: false },
-            { text: "နေပြည်တော်", correct: true },
-            { text: "စစ်ကိုင်း", correct: false }
+            { text: "ဟိန္ဒူ", correct: false },
+            { text: "ဗုဒ္ဓ", correct: true },
+            { text: "ခရစ်ယာန်", correct: false },
+            { text: "မုဆလင်", correct: false }
         ]
     },
     {
-        question: " မြန်မာနိုင်ငံမှာ အကြီးဆုံး ထိုင်တော်မူဘုရားဟာ, ဘယ်မြို့မှာ ရှိတာလဲ?",
+        question: "ရှမ်းပြည်နယ်တောင်ပိုင်း မြို့တော်ဟာ ဘယ်မြို့လဲ?",
         answers: [
-            { text: "ဂေါတမဗုဒ္ဓဘုရား မွန်ပြည်နယ် ကျိုက်ထိုမြို့", correct: false },
-            { text: "လောကချမ်းသာ အဘယလာဘမုနိ ကျောက်တော်ကြီးဘုရား ရန်ကုန်မြိုံ", correct: false },
-            { text: "မာရဝိဇယဘုရား နေပြည်တော်မြို့", correct: true },
-            { text: "မဇ္စျိမလာဘဗောဓိဘုရား ကချင်ပြည်နယ်", correct: false }
+            { text: "မော်လမြိုင်", correct: false },
+            { text: "တာချီလိတ်", correct: true },
+            { text: "မူဆယ်", correct: false },
+            { text: "လားရှိုး", correct: false }
         ]
     },
     {
-        question: "ရဟန်းတွေ စောင့်ထိန်းရတဲ့ ဝိနည်းစည်းကမ်း သိက္ခာပုဒ်က ဘယ်လောက်ရှိပါသလဲ?",
+        question: "မြန်မာနိုင်ငံရဲ့ အကြီးဆုံးကန်က ဘယ်ကန်လဲ?",
         answers: [
-            { text: "၂၂၀", correct: false },
-            { text: "၂၂၇", correct: true },
-            { text: "၃၃၁", correct: false },
-            { text: "၄၂၁", correct: false }
+            { text: "အင်းလေးကန်", correct: false },
+            { text: "မဲခေါင်ကန်", correct: true },
+            { text: "မဲစီကန်", correct: false },
+            { text: "မိုးလုံးကန်", correct: false }
         ]
     },
     {
-        question: "ကိုရင်တွေ စောင့်ထိန်းရတဲ့ ဝိနည်းစည်းကမ်း သိက္ခာပုဒ်က ဘယ်လောက်ရှိပါသလဲ?",
+        question: "မြန်မာနိုင်ငံမှာ နောက်ဆုံးခေတ် မင်းတော်ဘယ်သူလဲ?",
         answers: [
-            { text: "၇၅", correct: false },
-            { text: "၁၀၉", correct: false },
-            { text: "၁၁၉", correct: true },
-            { text: "၁၄၀", correct: false }
+            { text: "မင်းကြီးအလောင်း", correct: true },
+            { text: "မင်းကြီးဘိုးလင်း", correct: false },
+            { text: "မင်းကြီးသီတာ", correct: false },
+            { text: "မင်းကြီးဘုရင်နန်း", correct: false }
         ]
     },
     {
-        question: "သီလရှင်တွေ စောင့်ထီန်းရတဲ့ ဝိနည်းစည်းကမ်း သိက္ခာပုဒ်က ဘယ်လောက်ရှိပါသလဲ?",
+        question: "ဧရာဝတီမြစ်မှာ ရှိတဲ့ ကျွန်းကြီးက ဘာလဲ?",
         answers: [
-            { text: "၁၀", correct: false },
-            { text: "၉", correct: false },
-            { text: "၈", correct: true },
-            { text: "၅", correct: false }
+            { text: "ပုလဲကျွန်း", correct: true },
+            { text: "ဟဲလိုင်ကျွန်း", correct: false },
+            { text: "ငါးခူကျွန်း", correct: false },
+            { text: "အလူကျွန်း", correct: false }
         ]
     },
-    {
-        question: "လူတွေ ခါးဝတ်ပုဆိုးလို မြဲရမယ့် ကျင့်ဝတ် ဘယ်နှစ်ပါးရှိပါသလဲ?",
-        answers: [
-            { text: "၁၀", correct: false },
-            { text: "၉", correct: false },
-            { text: "၈", correct: false },
-            { text: "၅", correct: true }
-        ]
-    },
-   
-   
-    
 ];
 
 // Function to start the game
